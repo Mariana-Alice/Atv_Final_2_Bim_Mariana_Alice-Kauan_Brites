@@ -1,0 +1,150 @@
+*{
+	font-family: 'sans-serif';
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	font-size: 1.3rem;
+	color: white;
+}
+body{
+	color: white;
+	background-image: url('img-src/fundo.jpg');
+	background-repeat: repeat;
+}
+header{
+	color: white;
+	height: 80px;
+	background-color: #423e5f;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.logo{
+	height: 90%;
+}
+.subtitulo{
+	font-size: 0.8rem;
+}
+.nome-topo{
+	font-family: Arial;
+	font-size: 1.4rem;
+}
+.projetos,.topo,.contato{
+	margin:  15px;
+	background-color: #423e5f;
+	width: 70%;	padding: 13px;
+}
+.frame{
+	width: 80%;
+}
+.topo{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	}
+.topo > img{
+	width: 40%;
+	height: auto;
+} 
+h3{
+	text-align: justify;
+}
+link:hover{
+	cursor: pointer;
+}
+form{
+	width: 80%;
+}
+footer{
+	display: flex;
+	height: 100px;
+	color: white;
+	background-color: #423e5f;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+footer > div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 40%
+}
+footer > div > div{
+	height: 100%;
+}
+.sociais{
+	height: 70%;
+}
+
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    border:0px;
+    outline: none;
+}
+textarea{
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+input[type=submit]{
+    display: block;
+    background-color: #9b90f9;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 13px auto 0 auto;
+    text-align: center;
+    border-radius: 15px;
+
+}
+.imagemprojetos{
+	height: auto;
+	width: 100%;
+	border-radius: 5px;
+}
+.projeto{
+	background-color: #998dfb;
+	width: 71%;
+	padding: 5px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+@media screen and (max-width: 992px){
+	.topo{
+		flex-direction: column;
+	}
+	.topo > img{
+	width: 100%;
+	height: auto;
+	}
+	h3{
+	text-align: center;
+}
+.projetos,.topo,.contato{
+	width: 90%;
+}
+footer{
+	flex-direction: column;
+	height: 300px;
+}
+.sociais{
+	height: 30%;
+}
+footer > div > div{
+	height: 80%;
+}
+}

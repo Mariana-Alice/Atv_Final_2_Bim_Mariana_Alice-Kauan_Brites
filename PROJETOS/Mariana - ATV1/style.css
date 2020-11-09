@@ -1,0 +1,17 @@
+/* seletor de tags */
+h3{
+  background:green;
+  color:white;
+}
+
+/* seletor de id */
+#texto{
+  background: red;
+  color: yellow;
+}
+
+/* seletor de classe */
+.lista{
+  background: blue;
+  color: pink;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculadora - JS</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+  </head>
+<body>
+
+	<form>
+		<table border="0">
+      <tr>
+        <th colspan="10"> Calculadora of Kauan</th>
+			</tr>
+			<tr>
+				<td> 1°-Valor: <input type="text" name="num1" id='num1'></td>
+				<td>Opção:
+
+					<select name="sinal" id="sinal">
+						<option value="+">Somar</option>
+						<option value="-">Subtrair</option>
+						<option value="*">Multiplicar</option>
+						<option value="/">Dividir</option>
+					</select>
+
+				</td>
+				<td> 2°-Valor: <input type="text" name="num2" id='num2'></td>
+				<td> <input type="button" value="=" onclick="calcular();" name=""></td>
+				<td><input type="text" name="result" id='result'></td>
+			</tr>
+
+		</table>
+	</form>
+<script type="text/javascript" src="calculadora.js">
+</script>
+  </body>
+</html>
